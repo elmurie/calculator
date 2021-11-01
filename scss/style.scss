@@ -14,12 +14,13 @@
 }
 
 body {
-    background: linear-gradient(to right, $leftGradient, $rightGradient );
+    background: linear-gradient(90deg, #FF9F1C 40%, #d569ff 100%);
+
     .calculator-grid {
         display: grid;
         justify-content: center;
         align-content: center;
-        min-height: 100vh;
+        min-height: calc(100vh - 5rem);
         grid-template-columns: repeat(4, 100px);
         grid-template-rows: minmax(120px, auto) repeat(5, 100px);
         
