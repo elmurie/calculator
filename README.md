@@ -1,6 +1,3 @@
 # Calculator
 
-## The project 
-```
-npm install
-```
+A simple calculator created in Javascript.
